@@ -1,0 +1,28 @@
+{
+  "name": "webgl-threejs-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juunegreiros/webgl-threejs-game.git"
+  },
+  "author": "Juliana Negreiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juunegreiros/webgl-threejs-game/issues"
+  },
+  "homepage": "https://github.com/juunegreiros/webgl-threejs-game#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "three": "^0.93.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
